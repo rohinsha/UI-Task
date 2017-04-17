@@ -1,0 +1,117 @@
+.heading{
+	font-size:45px;
+}
+.first-animation {
+margin-top:100px;
+	
+	
+	
+	border:1px solid red;
+
+		ul {
+			padding:30px;
+			
+			
+		    
+			
+	border:1px solid blue;
+
+			text-align:center;
+
+				 li {
+						list-style: none;
+						display:inline;
+						font-size: 4rem;
+						height:180px;
+						width: 180px;
+						border-radius: 180px;
+						
+						padding:15px;
+						margin-right:220px;
+						position: relative;
+			 		
+			 			span{
+	 						color:white;
+  						}
+	     
+				  		&:nth-child(3):after {
+							content:'';
+							display:none;
+						}
+						&:nth-child(1):after{
+						content:"";
+						position:absolute;
+						left:74px;
+						height:3px;
+						width:352px;
+						top:30px;
+						background-color:#474747;
+						animation-name: first-hr;
+					    animation-duration: 6s;
+						animation-fill-mode:forwards;
+							
+						}
+						&:nth-child(2):after{
+							content:"";
+							position:absolute;
+							left:74px;
+							height:3px;
+							width:352px;
+							top:30px;
+							background-color:#474747;
+							animation-name: first-hr;
+						    animation-duration: 20s;
+							animation-fill-mode:forwards;
+				        }
+				        &:nth-child(1){
+							animation-name: example;
+							animation-duration:3s;
+							animation-fill-mode:forwards;
+						}
+						&:nth-child(2){
+							animation-name: example;
+						    animation-duration: 16s;
+							animation-fill-mode:forwards;
+						}
+						&:nth-child(3){
+							margin-right:0 !important;
+							animation-name: example;
+						    animation-duration: 25s;
+							animation-fill-mode:forwards;
+					    }
+					    &:nth-child(1) span{
+							animation-name: spanfirst;
+						    animation-duration: 3s;
+							animation-fill-mode:forwards;	
+					    }
+	    
+	   					&:nth-child(2) span{
+							animation-name: spanfirst;
+						    animation-duration: 16s;
+							animation-fill-mode:forwards;	
+							}
+
+						&:nth-child(3) span{
+							animation-name: spanfirst;
+						    animation-duration: 25s;
+							animation-fill-mode:forwards;	
+							}
+
+				    }
+			}
+	}
+
+
+@keyframes spanfirst
+{
+    from {color:$darkGray;}
+    to 	{color:white ;}
+}
+@keyframes first-hr {
+    from {background-color: #474747;}
+    to {background-color:#e5ab13;}
+}
+@keyframes example {
+    from {background-color: white;border:2px solid #474747;}
+    to {background-color:#e5ab13;border:1px solid white;}
+}
