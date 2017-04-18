@@ -1,20 +1,20 @@
- 
-	.heading-1{
-				font-size:40px;
-				padding-top:10px;
-				margin-top:10px;
+.heading-1{
+			font-size:40px;
+			padding-top:10px;
+			margin-top:10px;
 			}
-    .heading-2{
-				margin-top:80px;
+.heading-2{
+			margin-top:80px;
   			}
-  	.second-animation{ 
-  	height:300px;
-  			border:1px solid green;
-	ul { text-align:center !important;
-		border:1px solid blue;
-					li {
-					display:inline;
-			text-align:center !important;
+.second-animation{ 
+  		height:300px;
+  		border:1px solid green;
+  		ul { 
+  			text-align:center !important;
+			border:1px solid blue;
+			li {
+				display:inline;
+				text-align:center !important;
 				border:1px solid red;
 				font-size:3rem;
 				position: relative;
@@ -22,15 +22,20 @@
 				float:left;
 				margin-top:50px !important;
 				margin-right: 90px;
-					&:nth-child(1){
-								
-								.icon-circle{
-								 	 color: #e5ab13;
-					        		}
-    							}
-    				a{
-		  				top:50px !important;
-		  			}
+				.circle-text{
+					position:relative;
+					left:0px;
+					padding-top:5px;
+					font-size: 2.5rem;
+					width:100px;
+				}
+
+				&:nth-child(1){
+					.icon-circle{
+						color: #e5ab13;
+					    }
+    				}
+    			
     				&:nth-child(1):hover{
 							    .icon-circle{
 									font-size:60px;
@@ -218,15 +223,6 @@ input:checked + .slider:before {
 	  z-index:11;
 	  visibility:hidden;
 	}
-.icon-circle3{
-  font-size:35px;
-}
-.circle-text{
-	position:relative;
-	left:0px;
-	padding-top:5px;
-	font-size: 2.5rem;
-	width:100px;
-}
+
 
 
