@@ -1,5 +1,6 @@
 body {
 	overflow: overlay;
+	background-color:$lightGray;
 }
 
 .header {
@@ -28,7 +29,7 @@ body {
 	color:white;
     p{
     	font-size: 2.5rem;
-    	margin: 0;
+    	margin-left: 20px;
 
     }
 }
