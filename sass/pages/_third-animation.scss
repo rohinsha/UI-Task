@@ -5,12 +5,9 @@
 			float:none;
 			display:inline-block;
 		}
-	.heading-3{
-		    	color:$darkGray;
-		      	font-size:40px !important;
-		        margin-top:50px;
-		        padding-top:40px;
-			    }
+.heading-3{
+	color:$darkGray;
+}
 		.checklist-group{
 				background-color:white;
 				padding-top:10px;
@@ -136,6 +133,8 @@
 @media only screen and (max-width:320px){
 .checklist-group{
 	width:88%;
+	margin-top:9px !important;
+
 	}
 	.text-icon{
 	    font-size: 11px !important;
